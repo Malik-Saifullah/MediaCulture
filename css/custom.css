@@ -740,8 +740,8 @@ section.masthead1 {
 }
 
 section.masthead1 hr {
-	margin-top: 30px;
-	margin-bottom: 30px;
+	margin-top: 30px !important;
+    margin-bottom: 60px !important;
 }
 
 section.masthead1 h1 {
