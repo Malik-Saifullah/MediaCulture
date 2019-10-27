@@ -243,8 +243,13 @@ a.nav-link:hover {
 /*Services*/
 
 #services{
-	margin-top: 5%;
-	margin-bottom: 5%;
+	padding-top: 10vh;
+	margin-bottom: 10vh;
+}
+
+#services .padding-15 {
+	padding-left: 0%;
+	padding-right: 0%;
 }
 
 .service-box {
@@ -664,8 +669,7 @@ section.masthead p {
 
 @media (min-width: 992px) {
 	section.masthead {
-		height: 100vh;
-		min-height: 650px;
+		height: 80vh;
 		padding-top: 0;
 		padding-bottom: 0;
 	}
@@ -686,7 +690,8 @@ section.masthead p {
 
 @media screen and (max-width: 3000px) and (min-width: 990px) {
 	div#aboutPage {
-		margin-top: -70px;
+		height: 30%;
+    margin: 10% 0 12% 0;
 	}
 
 	div#contact {
@@ -740,8 +745,8 @@ section.masthead1 {
 }
 
 section.masthead1 hr {
-	margin-top: 30px;
-	margin-bottom: 30px;
+	margin-top: 30px !important;
+    margin-bottom: 60px !important;
 }
 
 section.masthead1 h1 {
@@ -761,7 +766,6 @@ section.masthead1 p {
 @media (min-width: 992px) {
 	section.masthead1 {
 		height: 100vh;
-		min-height: 650px;
 		padding-top: 0;
 		padding-bottom: 0;
 	}
@@ -779,8 +783,6 @@ section.masthead1 p {
 
 @media screen and (max-width: 3000px) and (min-width: 994px) {
 	div#center {
-		position: relative;
-		top: 280px;
 	}
 }
 
