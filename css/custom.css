@@ -103,8 +103,6 @@ textarea {
 .btn-start-order:active,
 .btn-start-order:focus {
 	border-color: #5e9bfc;
-	background-color: ;
-	color: ;
 }
 
 
@@ -172,7 +170,6 @@ a.homeArrow.js-scroll-trigger i {
 a.move {
 	background-color: white;
 	color: red;
-	border-color: ;
 }
 
 .btn-primary3:hover {
@@ -217,8 +214,6 @@ a.nav-link:hover {
 	font-size: 35px;
 }
 
-a.activeHome {}
-
 
 .h1scrolled {
 	color: #222;
@@ -246,6 +241,11 @@ a.activeHome {}
 
 
 /*Services*/
+
+#services{
+	margin-top: 5%;
+	margin-bottom: 5%;
+}
 
 .service-box {
 	text-align: left;
@@ -294,7 +294,6 @@ h2,
 h3 {
 	margin: 0 0 35px 0;
 	font-family: AvenirLTStd;
-	text-transform: ;
 	letter-spacing: 1px;
 }
 
@@ -404,7 +403,6 @@ i.colorized {
 	font-weight: bold;
 	transition: 1s all ease;
 	transform: rotate(-1.5deg);
-	background-color: ;
 	/* Add a dark-grey background on hover */
 }
 
@@ -697,8 +695,6 @@ section.masthead p {
 	}
 }
 
-div#center {}
-
 
 /*social links*/
 
@@ -794,6 +790,8 @@ section.masthead1 p {
 
 #blog-aria .post-slider-area {
 	padding-top: 0 !important;
+	margin-top: 5%;
+	padding-bottom: 0 !important;
 }
 
 #blog-aria .post-slider-area .container-fluid .post-detail .post-content .post-meta .c-desc h6,

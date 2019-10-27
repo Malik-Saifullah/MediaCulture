@@ -196,7 +196,7 @@ header.masthead {
     padding-top: 10rem;
     padding-bottom: calc(10rem - 56px);
     background-image: url(../img/header.jpg);
-    backgroundbackground-position: center center;
+    background-position: center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -328,7 +328,6 @@ header.masthead p {
 .btn-primary {
     border: 0px;
     background-color: #fff;
-    border-color: ;
     color: black;
 }
 
