@@ -61,8 +61,8 @@ textarea {
 .form-control {
 	border-radius: 0;
 	border-color: #ccc;
-	border-width: 0 0 2px 0;
-	border-style: none none solid none;
+	border-width: 2px;
+	border-style: solid;
 	box-shadow: none;
 }
 
