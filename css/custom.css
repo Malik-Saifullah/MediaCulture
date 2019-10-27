@@ -760,8 +760,7 @@ section.masthead1 p {
 
 @media (min-width: 992px) {
 	section.masthead1 {
-		height: 100vh;
-		min-height: 650px;
+		height: 70%;
 		padding-top: 0;
 		padding-bottom: 0;
 	}
@@ -779,8 +778,6 @@ section.masthead1 p {
 
 @media screen and (max-width: 3000px) and (min-width: 994px) {
 	div#center {
-		position: relative;
-		top: 280px;
 	}
 }
 
