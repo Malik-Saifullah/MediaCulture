@@ -243,8 +243,8 @@ a.nav-link:hover {
 /*Services*/
 
 #services{
-	margin-top: 5%;
-	margin-bottom: 5%;
+	padding-top: 10vh;
+	margin-bottom: 10vh;
 }
 
 #services .padding-15 {
@@ -765,7 +765,7 @@ section.masthead1 p {
 
 @media (min-width: 992px) {
 	section.masthead1 {
-		height: 70%;
+		height: 100vh;
 		padding-top: 0;
 		padding-bottom: 0;
 	}
