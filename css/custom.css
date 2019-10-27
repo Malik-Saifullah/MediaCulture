@@ -785,7 +785,12 @@ section.masthead1 p {
 	div#center {
 	}
 }
-
+@media only screen and (max-width: 1200px) {
+  /* For mobile phones: */
+  [class*="para"] {
+    text-align: middle;
+  }
+} 
 
 
 /*FullScreen section ABOUT*/
