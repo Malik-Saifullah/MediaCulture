@@ -669,7 +669,7 @@ section.masthead p {
 
 @media (min-width: 992px) {
 	section.masthead {
-		height: 80vh;
+		height: 100vh;
 		padding-top: 0;
 		padding-bottom: 0;
 	}
