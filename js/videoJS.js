@@ -2,7 +2,7 @@ var min_w = 300;
 var vid_w_orig;
 var vid_h_orig;
 
-$(function () {
+$(function (){
 
     vid_w_orig = parseInt($('video').attr('width'));
     vid_h_orig = parseInt($('video').attr('height'));
