@@ -664,8 +664,7 @@ section.masthead p {
 
 @media (min-width: 992px) {
 	section.masthead {
-		height: 100vh;
-		min-height: 650px;
+		height: 80vh;
 		padding-top: 0;
 		padding-bottom: 0;
 	}
@@ -686,7 +685,8 @@ section.masthead p {
 
 @media screen and (max-width: 3000px) and (min-width: 990px) {
 	div#aboutPage {
-		margin-top: -70px;
+		height: 30%;
+    margin: 10% 0 12% 0;
 	}
 
 	div#contact {
