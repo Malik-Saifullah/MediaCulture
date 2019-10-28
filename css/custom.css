@@ -281,6 +281,10 @@ ul.services li:before {
 
 }
 
+nav #navbarResponsive ul li{
+	padding: 0 4%;
+}
+
 
 
 
