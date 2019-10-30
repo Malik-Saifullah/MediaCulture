@@ -285,6 +285,11 @@ nav #navbarResponsive ul li{
 	padding: 0 4%;
 }
 
+nav #navbarResponsive ul li a{
+	font-size: 14.8px !important;
+	font-weight: 700;
+}
+
 
 
 
