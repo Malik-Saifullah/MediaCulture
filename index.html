@@ -81,14 +81,14 @@
             <div class="collapse navbar-collapse" id="navbarNavDropdown">
                 <ul class="navbar-nav m-auto">
                     <li class="nav-item active">
-                        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                        <a class="nav-link" href="#home">Home <span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#about">About</a>
                     </li>
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropbtn dropdown-toggle" href="#services" id="navbarDropdownMenuLink" role="button"
-                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <a class="nav-link dropbtn dropdown-toggle" href="#services" id="navbarDropdownMenuLink"
+                            role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                             Services
                         </a>
                         <div class="dropdown-menu dropdown-content" aria-labelledby="navbarDropdownMenuLink">
@@ -113,7 +113,7 @@
 
 
     <!--Home-->
-    <header class="v-header" style="background-color:#212529;">
+    <header class="v-header" style="background-color:#212529;" id="home">
         <div class="fullscreen-video-wrap">
             <video class="video" autoplay="true" loop="true">
                 <source
@@ -129,6 +129,14 @@
             </div>
         </div>
     </header>
+
+
+    <!-- BACK TO TOP -->
+    <button onclick="topFunction()" id="myBtn" class="slideAnimationRight" title="Back to Top">
+        <span class="Btn">
+            <i class="fa fa-angle-up colorized"></i>
+        </span>
+    </button>
 
 
     <!--About-->
@@ -534,6 +542,7 @@
                                     height: auto;
                                     max-width: 100%;
                                 }
+
                                 .gmap_canvas {
                                     background: none !important;
                                     height: auto;

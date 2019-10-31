@@ -1,5 +1,5 @@
 /*====================================
-                Blog
+                easing
 ====================================*/
 
 $(document).ready(function () {
@@ -25,6 +25,60 @@ $(document).ready(function () {
             });
         } // End if
     });
+});
+
+
+/*====================================
+            back-to-top
+====================================*/
+
+// BACK TO TOP
+
+$(function () {
+
+	// ScrollTo
+
+	$('#myBtn').click(function () {
+		$('html, body').animate({
+			scrollTop: $("#home").offset().top
+		}, 1500);
+	});
+
+	$(window).scroll(function () {
+		if ($(window).scrollTop() > 500) {
+
+			// Show
+			$('#myBtn').css({
+				display: 'block'
+			});
+		}
+
+		// Hide
+		else {
+			$('#myBtn').css({
+				display: 'none'
+			});
+		}
+	});
+});
+
+
+/*====================================
+                Home
+====================================*/
+
+$("video").prop('muted', true);
+
+$(".mute-video").click(function () {
+    if ($("video").prop('muted')) {
+        $("video").prop('muted', false);
+        $(this).addClass('unmute-video');
+
+    } else {
+        $("video").prop('muted', true);
+        $(this).removeClass('unmute-video');
+    }
+    console.log($("video").prop('muted'))
 });
 
 
@@ -59,25 +113,6 @@ $('.active-post-carusel').owlCarousel({
             items: 3
         }
     }
-});
-
-
-/*====================================
-                Home
-====================================*/
-
-$("video").prop('muted', true);
-
-$(".mute-video").click(function () {
-    if ($("video").prop('muted')) {
-        $("video").prop('muted', false);
-        $(this).addClass('unmute-video');
-
-    } else {
-        $("video").prop('muted', true);
-        $(this).removeClass('unmute-video');
-    }
-    console.log($("video").prop('muted'))
 });
 
 
