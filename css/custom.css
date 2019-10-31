@@ -290,6 +290,19 @@ nav #navbarResponsive ul li a {
 	font-weight: 700;
 }
 
+.mute-video {
+    background:url(http://cdn.flaticon.com/png/64/60750.png) no-repeat center;
+    background-size:20px;
+    border:0;
+    width:20px;
+    height:20px;
+    text-indent:-999px;
+}
+
+.unmute-video {
+    background:url(http://cdn.flaticon.com/png/64/498.png) no-repeat center;
+    background-size:20px;
+}
 
 
 

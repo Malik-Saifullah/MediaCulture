@@ -82,11 +82,13 @@
     }
 
     ::-webkit-scrollbar-track {
+      box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
       -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
     }
 
     ::-webkit-scrollbar-thumb {
       border-radius: 10px;
+      box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.5);
       -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.5);
     }
   </style>
@@ -131,10 +133,21 @@
       }
     });
   </script>
-  <script src="https://browser.sentry-cdn.com/5.7.1/bundle.min.js" integrity="sha384-KMv6bBTABABhv0NI+rVWly6PIRvdippFEgjpKyxUcpEmDWZTkDOiueL5xW+cztZZ" crossorigin="anonymous">
-  </script>
+  
   <script>
-    Sentry.init({ dsn: 'https://fae145e62f6e41668dafe854abe91ab7@sentry.io/1802598', debug:true });
+    $("video").prop('muted', true);
+
+    $(".mute-video").click(function () {
+      if ($("video").prop('muted')) {
+        $("video").prop('muted', false);
+        $(this).addClass('unmute-video');
+
+      } else {
+        $("video").prop('muted', true);
+        $(this).removeClass('unmute-video');
+      }
+      console.log($("video").prop('muted'))
+    });
   </script>
 
 </head>
@@ -145,7 +158,6 @@
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
       <div class="container">
-        <a class="navbar-brand js-scroll-trigger" href="#page-top"></a>
         <button id="linkToTop" class="toggle navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
           data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false"
           aria-label="Toggle navigation">
@@ -181,12 +193,13 @@
     <!-- maybe include in header? -->
     <header class="v-header" style="background-color:#212529;">
       <div class="fullscreen-video-wrap">
-        <video class="video" autoplay="true" loop="true">
+        <video id="myVideo" class="video" autoplay="true" loop="true">
           <source
             src="https://res.cloudinary.com/saifullah/video/upload/f_auto,q_auto:best,vc_auto/v1572184434/Logo_Introduction.mp4"
             type="video/mp4">
           Your browser does not support HTML5 video.
         </video>
+        <button class="mute-video ">toggle</button>
       </div>
       <div class="added centered">
         <!-- <hr class="homeHr"> -->
