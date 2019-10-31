@@ -242,7 +242,7 @@ a.nav-link:hover {
 
 /*Services*/
 
-#services{
+#services {
 	padding-top: 15vh;
 	margin-bottom: 10vh;
 }
@@ -281,11 +281,11 @@ ul.services li:before {
 
 }
 
-nav #navbarResponsive ul li{
-	padding: 0 4%;
+nav #navbarResponsive ul li {
+	padding: 0 4% !important;
 }
 
-nav #navbarResponsive ul li a{
+nav #navbarResponsive ul li a {
 	font-size: 14.8px !important;
 	font-weight: 700;
 }
@@ -700,7 +700,7 @@ section.masthead p {
 @media screen and (max-width: 3000px) and (min-width: 990px) {
 	div#aboutPage {
 		height: 30%;
-    margin: 10% 0 12% 0;
+		margin: 10% 0 12% 0;
 	}
 
 	div#contact {
@@ -755,7 +755,7 @@ section.masthead1 {
 
 section.masthead1 hr {
 	margin-top: 30px !important;
-    margin-bottom: 60px !important;
+	margin-bottom: 60px !important;
 }
 
 section.masthead1 h1 {
@@ -791,15 +791,16 @@ section.masthead1 p {
 }
 
 @media screen and (max-width: 3000px) and (min-width: 994px) {
-	div#center {
+	div#center {}
+}
+
+@media only screen and (max-width: 1200px) {
+
+	/* For mobile phones: */
+	[class*="para"] {
+		text-align: middle;
 	}
 }
-@media only screen and (max-width: 1200px) {
-  /* For mobile phones: */
-  [class*="para"] {
-    text-align: middle;
-  }
-} 
 
 
 /*FullScreen section ABOUT*/
