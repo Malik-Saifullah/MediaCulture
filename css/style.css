@@ -111,7 +111,7 @@ div.centered {
 	/* Remove outline */
 	background-color: transparent;
 	/* Set a background color */
-	color: red;
+	color: gray;
 	/* Text color */
 	cursor: pointer;
 	/* Add a mouse pointer on hover */
