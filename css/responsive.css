@@ -1,0 +1,74 @@
+/* Large Devices (Desktops & Laptops) */
+
+@media (min-width: 1200px){
+    .v-header #arrow-down{
+        top: 90% !important;
+    }
+}
+
+
+
+/* Medium Devices (Landscape Tablets & Medium Desktops) */
+
+@media (min-width: 992px) and (max-width: 1199px){
+    .v-header #arrow-down{
+        top: 75% !important;
+    }
+}
+
+
+
+/* Small Devices (Portrait Tablets & Small Desktops) */
+
+@media (min-width: 768px) and (max-width: 991px){
+    .v-header #arrow-down{
+        top: 75% !important;
+    }
+    header .fullscreen-video-wrap button{
+        bottom: 20vh !important;
+    }
+}
+
+
+/* Small Devices (Landscape Phones & Portrait Tablets) */
+
+@media (min-width: 481px) and (max-width: 767px){
+    .v-header #arrow-down{
+        top: 48% !important;
+    }
+    header .fullscreen-video-wrap button{
+        bottom: 52vh !important;
+    }
+}
+
+
+
+/* Extra Small Devices (Portrait Phones & Smaller devices) */
+
+@media (min-width: 321px) and (max-width: 480px){
+    .v-header #arrow-down{
+        display: none;
+    }
+    header .fullscreen-video-wrap button{
+        bottom: 66vh !important;
+    }
+}
+
+
+
+/* Extra Small Devices (Portrait Phones & Smaller devices) */
+
+@media (max-width: 320px){
+    .v-header #arrow-down{
+        display: none;
+    }
+    header .fullscreen-video-wrap button{
+        bottom: 66vh !important;
+    }
+    #address .container .leftouter audio{
+        display: none;
+    }
+    #address .container .googleMap{
+        display: none;
+    }
+}
