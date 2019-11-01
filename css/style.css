@@ -100,6 +100,20 @@ div.centered {
     margin: 0 auto !important;
 }
 
+/*===============================================
+                ARROW-DOWN
+===============================================*/
+
+.v-header #vid-div {
+    position: relative;
+}
+
+.v-header #arrow-down {
+    position: absolute;
+    top: 80%;
+    left: 49%;
+    background-color: #000;
+}
 
 /*===============================================
                 Back-to-top
