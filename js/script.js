@@ -29,38 +29,16 @@ $(document).ready(function () {
 
 
 /*====================================
-            back-to-top
+                Navbar
 ====================================*/
 
-// BACK TO TOP
-
-$(function () {
-
-	// ScrollTo
-
-	$('#myBtn').click(function () {
-		$('html, body').animate({
-			scrollTop: $("#home").offset().top
-		}, 1500);
-	});
-
-	$(window).scroll(function () {
-		if ($(window).scrollTop() > 500) {
-
-			// Show
-			$('#myBtn').css({
-				display: 'block'
-			});
-		}
-
-		// Hide
-		else {
-			$('#myBtn').css({
-				display: 'none'
-			});
-		}
-	});
-});
+$(window).on("scroll", function () {
+    if ($(window).scrollTop()) {
+        $('nav').addClass('bg-light');
+    } else {
+        $('nav').removeClass('bg-light');
+    }
+})
 
 
 /*====================================
@@ -83,10 +61,40 @@ $(".mute-video").click(function () {
 
 
 /*====================================
+            back-to-top
+====================================*/
+
+$(function () {
+
+    $('#myBtn').click(function () {
+        $('html, body').animate({
+            scrollTop: $("#home").offset().top
+        }, 1500);
+    });
+
+    $(window).scroll(function () {
+        if ($(window).scrollTop() > 500) {
+
+            // Show
+            $('#myBtn').css({
+                display: 'block'
+            });
+        }
+
+        // Hide
+        else {
+            $('#myBtn').css({
+                display: 'none'
+            });
+        }
+    });
+});
+
+
+/*====================================
                 Blog
 ====================================*/
 
-// post carousel js //
 $('.active-post-carusel').owlCarousel({
     items: 3,
     loop: true,
