@@ -20,12 +20,12 @@ hr {
 
 nav {
     font-size: 14.8px !important;
+    font-weight: bolder;
     transition: 1s;
 }
 
 nav.bg-light {
     background-color: #fff !important;
-    overflow: hidden;
     -webkit-box-shadow: 0px 5px 16px -8px rgba(0, 0, 0, 0.75);
     -moz-box-shadow: 0px 5px 16px -8px rgba(0, 0, 0, 0.75);
     box-shadow: 0px 5px 16px -8px rgba(0, 0, 0, 0.75);
@@ -271,6 +271,10 @@ ul.services li:before {
                     Work
 ===============================================*/
 
+#portfolio{
+    padding: 3% !important;
+}
+
 .text-faded {
     color: rgba(255, 255, 255, .7)
 }
@@ -365,6 +369,10 @@ img::-moz-selection {
 /*===============================================
                     Blog
 ===============================================*/
+
+#blog-aria{
+    padding-top: 4%;
+}
 
 #blog-aria h2 {
     font-size: 30px;
@@ -491,7 +499,7 @@ img::-moz-selection {
 ===============================================*/
 
 #contact {
-    margin: 8% 0;
+    padding: 8% 0;
 }
 
 #contact hr {
